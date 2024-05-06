@@ -33,10 +33,10 @@ Given this project was created at an MVP level, there are multiple improvements 
 ### Test scenarios
 Due to time constraints, unit testing has not yet been added to the project. Below is a high level summary of unit testing that should be completed in the future:
 * ArrayHelper.cs
-  * assert matrix is in correct configuration for rotations clockwise and anticlockwise
-  * assert that DeepClone results in expected Colour[][,] values
+  * Assert matrix is in correct configuration for rotations clockwise and anticlockwise
+  * Assert that DeepClone results in expected Colour[][,] values
  * PrintHelper.cs
-   * assert that PrintFaceAsMatrix prints values in the correct orientation
+   * Assert that PrintFaceAsMatrix prints values in the correct orientation
  * Rotate[Back/Down/Front/Left/Right/Up]FaceHelper.cs
    * Assert center squares never move
    * Assert that there are 9 squares of each colour after any rotation
