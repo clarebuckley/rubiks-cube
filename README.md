@@ -25,8 +25,9 @@ This requires no inputs.
 Given this project was created at an MVP level, there are multiple improvements that could be made in future iterations:
 * Added unit test coverage (only manually tested currently)
 * Refactoring the use of 'Colour' enum - this could allow matrix rotations to be applied more generically, and remove the need for a manual 'deepClone'
-* Refactor the rotation methods for each face to be more generic/re-usable (avoid repetition of logic)
+* Refactor the rotation methods for each face to be more generic/re-usable (avoid repetition of logic and hardcoded values)
 * Added support for rotations of more than 90 degrees
+* Added support for Rubik's cubes larger than 3x3
 * Added ability for user input to determine rotations of each face, with extra error/exception handling to give user-friendly feedback
 
 ### Test scenarios
