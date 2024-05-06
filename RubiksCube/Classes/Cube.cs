@@ -89,22 +89,22 @@ namespace RubiksCube.Classes
             switch (faceType)
             {
                 case FaceType.Front:
-                    _rotateFrontFaceHelper.Rotate(rotationType, _faces);
+                    SetFaces(_rotateFrontFaceHelper.Rotate(rotationType, _faces));
                     break;
                 case FaceType.Right:
-                    _rotateRightFaceHelper.Rotate(rotationType, _faces);
+                    SetFaces(_rotateRightFaceHelper.Rotate(rotationType, _faces));
                     break;
                 case FaceType.Up:
-                    _rotateUpFaceHelper.Rotate(rotationType, _faces);
+                    SetFaces(_rotateUpFaceHelper.Rotate(rotationType, _faces));
                     break;
                 case FaceType.Back:
-                    _rotateBackFaceHelper.Rotate(rotationType, _faces);
+                    SetFaces(_rotateBackFaceHelper.Rotate(rotationType, _faces));
                     break;
                 case FaceType.Left:
-                    _rotateLeftFaceHelper.Rotate(rotationType, _faces);
+                    SetFaces(_rotateLeftFaceHelper.Rotate(rotationType, _faces));
                     break;
                 case FaceType.Down:
-                    _rotateDownFaceHelper.Rotate(rotationType, _faces);
+                    SetFaces(_rotateDownFaceHelper.Rotate(rotationType, _faces));
                     break;
                 default: throw new ArgumentException($"Error: Invalid face type: {rotationType}");
             }
