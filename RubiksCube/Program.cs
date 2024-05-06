@@ -34,7 +34,7 @@ namespace RubiksCube
         {
             cube.Rotate(FaceType.Front, RotationType.Clockwise);
             cube.Rotate(FaceType.Right, RotationType.Anticlockwise);
-            cube.Rotate(FaceType.Up, RotationType.Clockwise);
+            cube.Rotate(FaceType.Up, RotationType.Clockwise);      
             cube.Rotate(FaceType.Back, RotationType.Anticlockwise);
             cube.Rotate(FaceType.Left, RotationType.Clockwise);
             cube.Rotate(FaceType.Down, RotationType.Anticlockwise);
@@ -42,19 +42,3 @@ namespace RubiksCube
     }
 
 }
-
-
-
-
-/*Test scenarios (coordinate approach):
- * - assert there are no repeated locations for any cells in the rubiks cube
- * - assert there are only 9 RubiksCells of each colour, maximum of 54 in the rubiks cube
- * - assert that positions used exist on a face of the cube (e.g. 0,0,0 is invalid)
- * - assert that each face has 9 RubiksCells
- * - the middle cube on each face should not change
- * 
- * Test scenarios (array approach)
- * - after rotation, assert that there are 9 of each colour on each face
- * - after rotation, assert that the center tiles of each face have not moved
- * - TODO
- */
