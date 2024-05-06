@@ -7,7 +7,7 @@ This is a C# representation of a Rubik's cube, which prints the state of each fa
 * Left face clockwise 90 degrees
 * Down face anti-clockwise 90 degrees
 
-The faces are printed in the flat view of the rubik's cube as shown below:
+The faces are printed in the flat view of the rubik's cube, and are initialised as shown below:
 
                             WHITE/UP
                                 |
