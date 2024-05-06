@@ -47,11 +47,11 @@ namespace RubiksCube.Helpers
         {
             int totalRows = face.GetLength(0);
             int totalCols = face.GetLength(1);
-            for (int i = 0; i < totalRows; i++)
+            for (int col = 0; col < totalCols; col++)
             {
-                for (int j = 0; j < totalCols; j++)
+                for (int row = 0; row < totalRows; row++)
                 {
-                    Console.Write(string.Format("{0} ", face[i, j]));
+                    Console.Write(string.Format("{0} ", face[row, col]));
                 }
                 Console.Write(Environment.NewLine);
             }
